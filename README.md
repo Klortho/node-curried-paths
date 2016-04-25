@@ -1,4 +1,4 @@
-# curried-paths
+# node-curried-paths
 
 This lets you create functions that behave similarly to path.join(), rooted at 
 specified directories. You can then create new functions, recursively, for 
@@ -7,7 +7,7 @@ subdirectories.
 For example:
 
 ```javascript
-var curriedPath = require('curried-path');
+var curriedPath = require('curried-paths');
 var process = require('process');
 
 // Curried path for the current working directory
